@@ -1,0 +1,66 @@
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/css/frontend.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.is-style-wohnung-block-masonry {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.ud-wohnung-block {
+  padding: 12px;
+  max-width: 50% !important;
+}
+.ud-wohnung-block .wohnung-block-content {
+  background-color: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-gallery .slick-slide figure {
+  display: block !important;
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-gallery .slick-slide figure img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9; /* oder 4/3, 1/1 usw. */
+  -o-object-fit: cover;
+     object-fit: cover; /* füllt den Bereich */
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-content {
+  padding: calc(var(--kachel-padding-x, 25px) / 2);
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-content h3 {
+  margin-top: 0;
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wohnung-title {
+  min-height: 2em;
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion {
+  padding: 0;
+  background-color: transparent;
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-nameaddress,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-phone,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-mobile,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-email,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-url,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-pdf {
+  display: flex;
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-nameaddress .icon,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-phone .icon,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-mobile .icon,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-email .icon,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-url .icon,
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-pdf .icon {
+  height: 1em;
+  margin-right: 0.5rem;
+  margin-top: 4px;
+}
+.ud-wohnung-block .wohnung-block-content .wohnung-content .wp-block-ud-accordion-block.ud-accordion .wohnung-contacts {
+  background-color: var(--wp--preset--color--accent-300, #f1f1f1);
+  padding: calc(var(--kachel-padding-x) / 2);
+  border-radius: calc(var(--border-radius) / 2);
+}
+
+/*# sourceMappingURL=frontend-script.css.map*/

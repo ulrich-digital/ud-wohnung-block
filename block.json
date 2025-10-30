@@ -1,0 +1,62 @@
+{
+    "apiVersion": 2,
+    "name": "ud/wohnung-block",
+    "title": "Wohnung",
+    "category": "widgets",
+    "icon": "building",
+    "description": "Block für Ferienwohnungen und Mietwohnungen mit Bild, Titel, Beschreibung und Kontaktdaten.",
+    "editorStyle": "file:./build/editor-style.css",
+    "style": "file:./build/frontend-style.css",
+    "editorScript": "file:./build/editor-script.js",
+    "script": "file:./build/frontend-script.js",
+    "supports": {
+        "html": false,
+        "className": true
+    },
+    "attributes": {
+        "mediaIds": {
+            "type": "array",
+            "default": []
+        },
+        "mediaUrls": {
+            "type": "array",
+            "default": []
+        },
+        "title": {
+            "type": "string",
+            "default": ""
+        },
+        "text": {
+            "type": "string",
+            "default": ""
+        },
+        "nameAddress": {
+            "type": "string",
+            "default": ""
+        },
+        "phone": {
+            "type": "string",
+            "default": ""
+        },
+        "mobile": {
+            "type": "string",
+            "default": ""
+        },
+        "email": {
+            "type": "string",
+            "default": ""
+        },
+        "url": {
+            "type": "string",
+            "default": ""
+        },
+        "pdf": {
+            "type": "string",
+            "default": ""
+        },
+        "pdfLabel": {
+            "type": "string",
+            "default": ""
+        }
+    }
+}

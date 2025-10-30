@@ -1,0 +1,128 @@
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/css/editor.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/* =============================================================== *\
+   Editor Styles – Wohnung Block
+\* =============================================================== */
+:root {
+  --wohnung-gap: 12px;
+}
+
+.wp-block-ud-wohnung-block {
+  position: relative;
+  display: block;
+  margin: var(--wohnung-gap, 12px);
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100% !important;
+  box-sizing: border-box;
+  background-color: white;
+}
+.wp-block-ud-wohnung-block .wohnung-gallery {
+  padding: var(--wohnung-gap, 12px);
+  background-color: var(--wp--preset--color--ui-neutral-300);
+  border-radius: var(--wohnung-gap);
+}
+.wp-block-ud-wohnung-block .wohnung-gallery .wohnung-gallery-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.wp-block-ud-wohnung-block .wohnung-gallery div p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.wp-block-ud-wohnung-block .wohnung-gallery-item {
+  position: relative;
+  /* max-width: 50%; */
+  box-sizing: border-box;
+  display: inline-block;
+  /* padding: 12px; */
+  flex-basis: calc(50% - 6px);
+}
+.wp-block-ud-wohnung-block .wohnung-gallery-item img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 4/3;
+  border-radius: calc(var(--wohnung-gap) / 2);
+  display: block;
+}
+.wp-block-ud-wohnung-block .wohnung-gallery-item button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: white;
+}
+.wp-block-ud-wohnung-block .wohnung-gallery-item button:hover {
+  background: white !important;
+}
+.wp-block-ud-wohnung-block .wohnung-gallery-actions {
+  display: flex;
+  gap: var(--wohnung-gap);
+  flex-direction: row-reverse;
+}
+.wp-block-ud-wohnung-block h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: var(--wohnung-gap, 12px);
+}
+.wp-block-ud-wohnung-block .ud-accordion .ud-accordion__title {
+  display: none;
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-text,
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-nameaddress,
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-phone,
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-mobile,
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-email,
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-url,
+.wp-block-ud-wohnung-block .ud-accordion .pdf-upload-container,
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-pdf {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: var(--wohnung-gap, 12px);
+  padding: 4px 8px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 18px;
+  background: white;
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-text {
+  padding: 4px 0;
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts {
+  margin: var(--wohnung-gap, 12px);
+  padding: var(--wohnung-gap, 12px);
+  border-radius: 12px;
+  background-color: var(--wp--preset--color--ui-neutral-300, #f8f9fa);
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts .wohnung-container {
+  display: flex;
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts .wohnung-container + .wohnung-container {
+  margin-top: 1rem;
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts .pdf-upload-container {
+  display: flex;
+  width: 100%;
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts .pdf-upload-container > * {
+  flex-basis: 50%;
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts .pdf-upload-container .choosen-pdf,
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts .pdf-upload-container .choose-pdf,
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts .pdf-upload-container .wohnung-pdf-label {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.wp-block-ud-wohnung-block .ud-accordion .wohnung-contacts .pdf-upload-container .choosen-pdf {
+  margin-bottom: 0.5rem;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=editor-style.css.map*/

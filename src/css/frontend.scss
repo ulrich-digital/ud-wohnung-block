@@ -1,0 +1,61 @@
+
+.is-style-wohnung-block-masonry{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.ud-wohnung-block {
+    padding: 12px;
+max-width: 50%!important;
+.wohnung-block-content{
+	background-color: white;
+	border-radius: var(--border-radius);
+	overflow: hidden;
+	.wohnung-gallery {
+		.slick-slide {
+			figure {
+				display: block !important;
+				img {
+					width: 100%;
+					height: auto;
+					aspect-ratio: 16/9; /* oder 4/3, 1/1 usw. */
+					object-fit: cover; /* füllt den Bereich */
+				}
+			}
+		}
+	}
+
+	.wohnung-content {
+		padding: calc(var(--kachel-padding-x, 25px) / 2);
+		h3 {
+			margin-top: 0;
+		}
+.wohnung-title{
+    min-height: 2em;
+}
+		.wp-block-ud-accordion-block.ud-accordion {
+			padding: 0;
+			background-color: transparent;
+
+			.wohnung-nameaddress,
+			.wohnung-phone,
+			.wohnung-mobile,
+			.wohnung-email,
+			.wohnung-url,
+            .wohnung-pdf {
+				display: flex;
+				.icon {
+					height: 1em;
+					margin-right: 0.5rem;
+                    margin-top: 4px;
+				}
+			}
+			.wohnung-contacts {
+				background-color: var(--wp--preset--color--accent-300, #f1f1f1);
+                padding: calc(var(--kachel-padding-x) / 2);
+                border-radius: calc(var(--border-radius) / 2);
+			}
+		}
+	}
+}
+}

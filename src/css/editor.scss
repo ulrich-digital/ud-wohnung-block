@@ -1,0 +1,148 @@
+/* =============================================================== *\
+   Editor Styles – Wohnung Block
+\* =============================================================== */
+:root {
+	--wohnung-gap: 12px;
+}
+
+
+
+.wp-block-ud-wohnung-block {
+	position: relative;
+	display: block;
+
+	margin: var(--wohnung-gap, 12px);
+	border-radius: 12px;
+	overflow: hidden;
+
+	width: 100%;
+	max-width: 100% !important;
+	box-sizing: border-box;
+
+	background-color: white;
+
+	.wohnung-gallery {
+		padding: var(--wohnung-gap, 12px);
+		background-color: var(--wp--preset--color--ui-neutral-300);
+		border-radius: var(--wohnung-gap);
+		.wohnung-gallery-preview {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 12px;
+            margin-bottom: 12px;
+		}
+		div {
+			p {
+				margin-top: 0;
+				margin-bottom: 0;
+				font-size: 18px;
+			}
+		}
+	}
+
+	.wohnung-gallery-item {
+		position: relative;
+		/* max-width: 50%; */
+		box-sizing: border-box;
+		display: inline-block;
+		/* padding: 12px; */
+		flex-basis: calc(50% - 6px);
+
+		img {
+			max-width: 100%;
+			object-fit: cover;
+			aspect-ratio: 4 / 3;
+			border-radius: calc(var(--wohnung-gap) / 2);
+			display: block;
+		}
+
+		button {
+			position: absolute;
+			top: 12px;
+			right: 12px;
+			background: white;
+			&:hover {
+				background: white !important;
+			}
+		}
+	}
+
+	.wohnung-gallery-actions {
+		display: flex;
+		gap: var(--wohnung-gap);
+		flex-direction: row-reverse;
+	}
+	h3 {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: var(--wohnung-gap, 12px);
+	}
+
+	.ud-accordion {
+		.ud-accordion__title {
+			display: none;
+		}
+
+		.wohnung-text,
+		.wohnung-nameaddress,
+		.wohnung-phone,
+		.wohnung-mobile,
+		.wohnung-email,
+		.wohnung-url,
+		.pdf-upload-container,
+		.wohnung-pdf {
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: var(--wohnung-gap, 12px);
+			padding: 4px 8px;
+
+			width: 100%;
+			border-radius: 6px;
+
+			font-size: 18px;
+			background: white;
+		}
+
+		.wohnung-text {
+			padding: 4px 0;
+		}
+
+		.wohnung-contacts {
+			margin: var(--wohnung-gap, 12px);
+			padding: var(--wohnung-gap, 12px);
+			border-radius: 12px;
+
+			background-color: var(--wp--preset--color--ui-neutral-300, #f8f9fa);
+
+			.wohnung-container {
+				display: flex;
+
+				+ .wohnung-container {
+					margin-top: 1rem;
+				}
+			}
+
+			.pdf-upload-container {
+				display: flex;
+				width: 100%;
+
+				> * {
+					flex-basis: 50%;
+				}
+
+				.choosen-pdf,
+				.choose-pdf,
+				.wohnung-pdf-label {
+					margin-top: 0;
+					margin-bottom: 0;
+					font-size: 18px;
+				}
+
+				.choosen-pdf {
+					margin-bottom: 0.5rem;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
